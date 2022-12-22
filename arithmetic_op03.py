@@ -1,8 +1,9 @@
 #Create a variable called 'number' and assign it the two-digit number
-number = 23
+number = 21
 #Find the reverse of the number and assign it to a variable called 'answer'.
-x = 23
-x1 = x%10
-x2 = x//10
+
+x1 = number%10
+x2 = number//10
+answer = x1*10+x2
 #Print the value of the 'answer'
-print(x1+x2)
+print(answer)
